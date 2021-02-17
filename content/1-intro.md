@@ -6,7 +6,7 @@ topics: Stuff, this is really good.
 
 # 1-Navigating
 
-# Creating a new Project
+## Creating a new Project
 
 **Create a new Project**
 
@@ -16,7 +16,7 @@ topics: Stuff, this is really good.
 4. Set the purpose to “Practice/Just for fun”.
 5. Click Create Project.
 
-# Setting up
+## Setting up
 
 The simplest way to get set up is to work down through each stage in the Project Setup tab.
 
@@ -30,13 +30,18 @@ The simplest way to get set up is to work down through each stage in the Project
 4. Click I'm done!
 5. Show that each section displays Complete! once the I’m done! button is clicked.
 
-# Designing data collection instruments
+## Designing data collection instruments
 
+
+{% capture text %}
 ## Instruments v Forms v Surveys
 
 REDCap considers anything that can capture data to be an ‘instrument’.
 
 There are two ways to add data to an instrument: **forms** and **surveys**. They use the same fields and record the same data into the same database. The only difference is that forms are for you, and surveys are for your participants. Provided surveys have been enabled for your project, you can turn any form into a survey.
+
+{% endcapture %}
+{% include alert.md text=text color="info" %}
 
 ![Text, application
 
