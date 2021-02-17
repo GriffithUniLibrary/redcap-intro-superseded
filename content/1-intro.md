@@ -1,14 +1,12 @@
 ---
 title: Setting up your project
 nav: Setup
-topics: Stuff, this is really good. 
+topics: Create a project, create an instrument, add basic questions
 ---
-
-# 1-Navigating
 
 ## Creating a new Project
 
-**Create a new Project**
+{% capture createnew %}
 
 1. Click New Project in the REDCap main menu
 2. Type Vaccine efficacy study into the Project name field
@@ -16,11 +14,14 @@ topics: Stuff, this is really good.
 4. Set the purpose to “Practice/Just for fun”.
 5. Click Create Project.
 
+{% endcapture %}
+{% include card.html header="Create a new project" text=createnew %}
+
 ## Setting up
 
-The simplest way to get set up is to work down through each stage in the Project Setup tab.
+> The simplest way to get set up is to work down through each stage in the Project Setup tab.
 
-## Main project settings
+{% capture projectsettings %}
 
 **Turn on surveys for your project**
 
@@ -30,13 +31,16 @@ The simplest way to get set up is to work down through each stage in the Project
 4. Click I'm done!
 5. Show that each section displays Complete! once the I’m done! button is clicked.
 
+{% endcapture %}
+{% include card.html header="Main project settings" text=projectsettings %}
+
 ## Designing data collection instruments
 
 
 {% capture text %}
-## Instruments v Forms v Surveys
+### Instruments v Forms v Surveys
 
-REDCap considers anything that can capture data to be an ‘instrument’.
+> REDCap considers anything that can capture data to be an ‘instrument’.
 
 There are two ways to add data to an instrument: **forms** and **surveys**. They use the same fields and record the same data into the same database. The only difference is that forms are for you, and surveys are for your participants. Provided surveys have been enabled for your project, you can turn any form into a survey.
 
