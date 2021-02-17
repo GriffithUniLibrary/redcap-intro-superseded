@@ -23,13 +23,13 @@ featured-image: "/images/uidaho-workshop.jpg"
 search: true
 
 # author settings for cc-by, appears in the footer and credits
-author: evan will
+author: Yuri Banens
 # your github username for link [optional]
-github_username: evanwill
+github_username: GriffithUniLibrary
 # year or date published
 pub_year: 2020
 # location of code, the full url to your github repository
-source-code: https://github.com/evanwill/workshop-template-b
+source-code: https://github.com/GriffithUniLibrary/redcap
 
 ##########
 # URL VARIABLES [optional!]
