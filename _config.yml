@@ -6,7 +6,7 @@ title: REDCap at Griffith
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Font Awesome 5 free, https://fontawesome.com/icons?d=gallery&m=free
 # some options: fas fa-wrench; fas fa-cogs; fas fa-code; fas fa-chalkboard-teacher; fas fa-book-open
-title-icon: fas pied-piper-hat
+title-icon: fas fa-pied-piper-hat
 # description, keywords, and image for meta tags
 description: "A companion resource to Griffith Library's Research Data Capture workshop"
 keywords: "workshops, research, data, surveys, longitudinal, redcap"
