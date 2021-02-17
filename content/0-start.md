@@ -13,7 +13,7 @@ REDCap logins are connected to the Griffith phonebook using LDAP. Your Griffith 
 {% capture logoutwarning %}
 Note: You'll be logged out if you are inactive for more than a certain period.
 {% endcapture %}
-{% include alert.md text=logoutwarning color="warning" %}
+{% include alert.html text=logoutwarning color="warning" %}
 
 {% capture text %}
 
