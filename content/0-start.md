@@ -4,9 +4,7 @@ nav: Start
 topics: GitHub; REDCap; LimeSurvey; Griffith; Research
 ---
 
-# 0-Getting Started
-
-# Accessing REDCap for the first time
+## Accessing REDCap for the first time
 
 The Griffith REDCap instance1 is hosted at [www151.griffith.edu.au/redcap/](https://www151.griffith.edu.au/redcap/). The simplest way there is via [griffith.edu.au/survey-centre](https://www.griffith.edu.au/survey-centre).
 

@@ -1,6 +1,7 @@
 ---
 title: Setting up your project
 nav: Setup
+topics: Stuff, this is really good. 
 ---
 
 # 1-Navigating
