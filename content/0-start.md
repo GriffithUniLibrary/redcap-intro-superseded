@@ -21,7 +21,7 @@ Note: You'll be logged out if you are inactive for more than a certain period.
 2. Log in to REDCap using your s-number and password.
 
 {% endcapture %}
-{% include card.md header="Logging in to REDCap" text=text %}
+{% include card.html header="Logging in to REDCap" text=text %}
 
 ## The My Projects screen
 

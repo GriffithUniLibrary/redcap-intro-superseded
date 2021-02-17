@@ -41,7 +41,7 @@ REDCap considers anything that can capture data to be an ‘instrument’.
 There are two ways to add data to an instrument: **forms** and **surveys**. They use the same fields and record the same data into the same database. The only difference is that forms are for you, and surveys are for your participants. Provided surveys have been enabled for your project, you can turn any form into a survey.
 
 {% endcapture %}
-{% include alert.md text=text color="info" %}
+{% include alert.html text=text color="info" %}
 
 ![Text, application
 
@@ -57,7 +57,7 @@ You'll see one instrument in the list, called 'My First Instrument'.
 1. Click on Choose actions under Instrument actions and select Rename.
 2. Name the instrument Demographic data.
 {% endcapture %}
-{% include card.md header="Rename your first instrument" text=text %}
+{% include card.html header="Rename your first instrument" text=text %}
 
 Now We’ll build a form and then turn it into a survey.
 
