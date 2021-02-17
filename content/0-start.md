@@ -10,7 +10,10 @@ The Griffith REDCap instance1 is hosted at [www151.griffith.edu.au/redcap/](http
 
 REDCap logins are connected to the Griffith phonebook using LDAP. Your Griffith s-number and password allow you to enter. There is no need to maintain separate login details.
 
+{% capture logoutwarning %}
 Note: You'll be logged out if you are inactive for more than a certain period.
+{% endcapture %}
+{% include alert.md text=logoutwarning color="warning" %}
 
 ### Logging in to REDCap
 
