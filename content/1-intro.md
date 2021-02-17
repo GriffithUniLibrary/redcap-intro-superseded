@@ -46,7 +46,7 @@ Description automatically generated](file:///var/folders/fh/w9vkbxsx4cg3gjc9s02b
 You'll see one instrument in the list, called 'My First Instrument'.
 
 {% capture text %}
-**Rename your first instrument**
+**Rename your first instrument**    
 
 1. Click on Choose actions under Instrument actions and select Rename.
 2. Name the instrument Demographic data.
