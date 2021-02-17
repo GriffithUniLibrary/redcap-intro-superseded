@@ -15,18 +15,19 @@ Note: You'll be logged out if you are inactive for more than a certain period.
 {% endcapture %}
 {% include alert.md text=logoutwarning color="warning" %}
 
-### Logging in to REDCap
+{% capture text %}
 
 1. Open a browser and using the search box to find the Research Survey Centre web page.
 2. Log in to REDCap using your s-number and password.
+
+{% endcapture %}
+{% include card.md header="Logging in to REDCap" text=text %}
 
 ## The My Projects screen
 
 The My Projects screen shows any projects you are working on or have access to.
 
-{% include figure.html img="https://res.craft.do/user/full/7836f923-6db2-5fd7-3b84-3456dcff553c/doc/4E782528-E777-4CCA-8611-568A0FCE5611/72D01A0E-9DE9-4AFB-BF63-F0EBF30A8A21_2" alt="Alt text" caption="REDCap Projects Screen" width="75%" %}
-
-![Image](https://res.craft.do/user/full/7836f923-6db2-5fd7-3b84-3456dcff553c/doc/4E782528-E777-4CCA-8611-568A0FCE5611/72D01A0E-9DE9-4AFB-BF63-F0EBF30A8A21_2)
+{% include figure.html img="" alt="Alt text" caption="REDCap Projects Screen" width="75%" %}
 
 ## Home Menu
 
