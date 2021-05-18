@@ -57,4 +57,4 @@ The following headings can be seen in the list of projects:
 
 {% capture done %}**All done here?** Head to the [next page](1-intro.md). 
 {% endcapture %}
-{% include alert.md text=done color="success" %}
+{% include alert.html text=done color="success" %}
