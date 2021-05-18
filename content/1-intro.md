@@ -1,7 +1,7 @@
 ---
 title: Setting up your project
 nav: Setup
-topics: Create a project, create an instrument, add basic questions
+topics: REDCap, projects, instruments, questions
 ---
 
 ## Creating a new Project
@@ -34,22 +34,23 @@ topics: Create a project, create an instrument, add basic questions
 {% endcapture %}
 {% include card.html header="Main project settings" text=projectsettings %}
 
+___
+
 ## Designing data collection instruments
 
 
-{% capture text %}
-### Instruments v Forms v Surveys
+{% capture surveys %}
 
-> REDCap considers anything that can capture data to be an ‘instrument’.
+{% include alert.html text="REDCap considers anything that can capture data to be an ‘instrument’." color="info" %}
 
 There are two ways to add data to an instrument: **forms** and **surveys**. They use the same fields and record the same data into the same database. The only difference is that forms are for you, and surveys are for your participants. Provided surveys have been enabled for your project, you can turn any form into a survey.
 
 {% endcapture %}
-{% include alert.html text=text color="info" %}
 
-![Text, application
+{% include card.html header="**Instruments v Forms v Surveys**" text=surveys %}
 
-Description automatically generated](file:///var/folders/fh/w9vkbxsx4cg3gjc9s02blb380000gn/T/com.lukilabs.lukiapp/importD1742204-F14C-4CD8-890A-83A360A27A84.png)
+
+{% include figure.html img="instruments-forms-surveys.png" alt="Instruments, forms and surveys." width="75%" %}
 
 # Designing your first instrument
 

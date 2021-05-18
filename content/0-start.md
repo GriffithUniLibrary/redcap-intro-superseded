@@ -24,6 +24,8 @@ REDCap logins are connected to the Griffith phonebook using LDAP. Your Griffith 
 {% endcapture %}
 {% include card.html header="Logging in to REDCap" text=text %}
 
+___
+
 ## The My Projects screen
 
 The My Projects screen shows any projects you are working on or have access to.
@@ -46,9 +48,13 @@ The My Projects screen shows any projects you are working on or have access to.
 
 --
 
-The following headings can be seen:
+The following headings can be seen in the list of projects:
 
 - **Records:** how many records (complete or partial) have been recorded for this project. This doesn't distinguish between records captured by researchers completing a form and records captured by participants completing a survey instrument.
 - **Instrument:** An instrument is how data gets captured into REDCap. They can either be forms (for researchers to complete inside of REDCap) or surveys (for participants to complete on their own devices).
 - **Type:** The type may either be classic or modern. This category doesn’t change and is irrelevant.
 - **Status:** Can be in development (the wrench symbol) or production (the green tick). Once a project is in production, it can also be set to inactive and archived statuses.
+
+{% capture done %}**All done here?** Head to the [next page](1-intro.md). 
+{% endcapture %}
+{% include alert.md text=done color="success" %}
