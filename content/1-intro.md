@@ -9,7 +9,7 @@ topics: Create a project, create an instrument, add basic questions
 {% capture createnew %}
 
 1. Click New Project in the REDCap main menu
-2. Type Vaccine efficacy study into the Project name field
+2. Type 'Vaccine efficacy study' into the Project name field
 3. Note that changing the purpose of the project to “Research” allows you to enter some extra information about the research project. This has little practical effect on the project and can also be done after the project has been created.
 4. Set the purpose to “Practice/Just for fun”.
 5. Click Create Project.
