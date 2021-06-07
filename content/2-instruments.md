@@ -15,7 +15,7 @@ There are two ways to add data to an instrument: **forms** and **surveys**. They
 
 {% endcapture %}
 
-{% include card.html header="Instruments v Forms v Surveys" text=surveys img="instruments-forms-surveys.png" %}
+{% include card.html header="Instruments v Forms v Surveys" text=surveys %}
 
 {% include figure.html img="instruments-forms-surveys.png" alt="Instruments, forms and surveys." width="75%" %}
 
@@ -92,4 +92,4 @@ REDCap uses the US HIPAA model to list what are likely to be personally identify
 
 {% include alert.html text="If you are collecting personal information from participants you should refer to the Privacy Principles found in the *Privacy Act 1988* (Cth) and Griffith’s Privacy Plan (see [https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research](https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research))." color="warning" %}
 
-{% include alert.html text="**All done here?** Move to the [next page]." color="success" %}
+{% include alert.html text="**All done here?** Move to the [next page](3-instruments-2.html)." color="success" %}
