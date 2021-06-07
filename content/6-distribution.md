@@ -28,6 +28,8 @@ Many of the options are either self-explanatory or beyond the scope of this work
 ### Enabling your survey
 
 You’ll notice that there will be a green button under each survey reading Enable. Tip: If you don’t see it, you need to go to your Project Setup and select Use surveys in this project.  
+
+{% include figure.html img="my-instruments.png" alt="Alt text" caption="REDCap Projects Screen" width="100" %}
  
 {% capture publicurl %}
 
@@ -88,9 +90,12 @@ Obtaining ethics approval
 8.	User rights may be important if you are collaborating with other researchers on this project. They are outside the scope of this workshop. 
 9.	Click I’m done on the Test your project section. 
 10.	Click I’m done on Move your project to production status. 
-11.	Explain that it is not strictly necessary to click all of the “I’m done” boxes to move to production, but it is a handy checklist to make sure you have completed what you need to do before going live.
+
+It is not strictly necessary to click all of the “I’m done” boxes to move to production, but it is a handy checklist to make sure you have completed what you need to do before going live.
 {% endcapture %}
 {% include card.html header="Move your project to production status" text=production %}
+
+{% include figure.html img="move-to-production.png" alt="Alt text" caption="Move your project to production status" width="100" %}
 
 {% capture livedata %}
 1.	Click on Survey Distribution Tools on the left-hand navigation.  

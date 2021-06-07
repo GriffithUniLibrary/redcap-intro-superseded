@@ -29,7 +29,7 @@ ___
 
 The My Projects screen shows any projects you are working on or have access to.
 
-{% include figure.html img="my-projects.png" alt="Alt text" caption="REDCap Projects Screen" width="75%" %}
+{% include figure.html img="my-projects.png" alt="Alt text" caption="REDCap Projects Screen" width="100" %}
 
 ### Home Menu
 
