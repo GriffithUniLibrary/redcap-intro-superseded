@@ -2,9 +2,8 @@
 title: Getting Started
 nav: Start
 topics: GitHub; REDCap; LimeSurvey; Griffith; Research
+description: Let's look at hos to access REDCap for the first time. 
 ---
-
-## Accessing REDCap for the first time
 
 The Griffith REDCap instance is hosted at [www151.griffith.edu.au/redcap/](https://www151.griffith.edu.au/redcap/). The simplest way there is via [griffith.edu.au/survey-centre](https://www.griffith.edu.au/survey-centre).
 
@@ -55,6 +54,6 @@ The following headings can be seen in the list of projects:
 - **Type:** The type may either be classic or modern. This category doesn’t change and is irrelevant.
 - **Status:** Can be in development (the wrench symbol) or production (the green tick). Once a project is in production, it can also be set to inactive and archived statuses.
 
-{% capture done %}**All done here?** Head to the [next page](1-setup.md). 
-{% endcapture %}
-{% include alert.html text=done color="success" %}
+___
+
+{% include alert.html text="**All done here?** Move to the [next page](1-setup.md)." color="success" %}

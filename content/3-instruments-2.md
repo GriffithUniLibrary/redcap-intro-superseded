@@ -88,4 +88,4 @@ REDCap understands many calculation functions you might be familiar with in Exce
 
 ___
 
-{% include alert.html text="**All done here?** Move to the [next page]." color="success" %}
+{% include alert.html text="**All done here?** Move to the [next page](4-branching.html)." color="success" %}

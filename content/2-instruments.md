@@ -4,9 +4,6 @@ nav: Instruments
 topics: Instruments; forms; surveys; validation; 
 ---
 
-## Designing data collection instruments
-
-
 {% capture surveys %}
 
 {% include alert.html text="REDCap considers anything that can capture data to be an ‘instrument’." color="info" %}
@@ -91,5 +88,7 @@ REDCap allows for personally identifiable information to be automatically remove
 REDCap uses the US HIPAA model to list what are likely to be personally identifying data. You can look it up using the REDCap help. It is a starting point and it likely to be similar to the Australian model.
 
 {% include alert.html text="If you are collecting personal information from participants you should refer to the Privacy Principles found in the *Privacy Act 1988* (Cth) and Griffith’s Privacy Plan (see [https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research](https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research))." color="warning" %}
+
+___
 
 {% include alert.html text="**All done here?** Move to the [next page](3-instruments-2.html)." color="success" %}

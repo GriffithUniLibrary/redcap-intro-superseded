@@ -4,8 +4,6 @@ nav: Setup
 topics: REDCap, projects, instruments, questions
 ---
 
-## Creating a new Project
-
 {% capture createnew %}
 
 1. Click New Project in the REDCap main menu
@@ -36,3 +34,5 @@ topics: REDCap, projects, instruments, questions
 
 ___
 
+
+{% include alert.html text="**All done here?** Move to the [next page](2-instruments.html)." color="success" %}
