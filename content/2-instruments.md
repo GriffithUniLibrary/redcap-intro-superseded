@@ -24,8 +24,6 @@ There are two ways to add data to an instrument: **forms** and **surveys**. They
 You'll see one instrument in the list, called 'My First Instrument'.
 
 {% capture text %}
-**Rename your first instrument**    
-
 1. Click on `Choose actions` under `Instrument actions` and select `Rename`.
 2. Name the instrument *Demographic data*.
 {% endcapture %}
@@ -33,8 +31,7 @@ You'll see one instrument in the list, called 'My First Instrument'.
 
 Now We’ll build a form and then turn it into a survey.
 
-**Add two text fields**
-
+{% capture buildform %}
 1. Click on `My First Instrument`
 2. Click `Add Field`
 3. Choose `Text Box`
@@ -44,40 +41,48 @@ Now We’ll build a form and then turn it into a survey.
 7. In the `Identifier?` Field, select “Yes”. (Identifiable information can be flagged so as to remove it from exports.)
 8. Click `Save`.
 9. Repeat the process to add the field Given Name (name_given)
+{% endcapture %}
+{% include card.html header="Rename your first instrument" text=buildform %}
 
-**Add a multiple-choice field**
-
+{% capture multiplechoice %}
 1. Click `Add field`.
 2. Choose `Multiple choice - Radio buttons` from the drop-down list.
 3. Type *Gender* in the `Field` Label and *gender* in the `Variable Name`.
 4. Add the following options: *Male, Female, Intersex, Unspecified*.
 5. When you leave the field, REDCap automatically enters numerical raw values for each option.
 
-Note here that the ‘raw value’, which appears before the column, is the value that gets recorded to your data. Thus your recorded value can be numeric, or a single letter code, while the participant can read a fuller description.
+{% include alert.html text="Note here that the ‘raw value’, which appears before the column, is the value that gets recorded to your data. Thus your recorded value can be numeric, or a single letter code, while the participant can read a fuller description." color="info" %}
+
+{% endcapture %}
+{% include card.html header="Add a multiple choice question" text=multiplechoice %}
+
+___
 
 ## Validation
 
 We can apply validation for certain types of text entries. For example, we can make sure that a phone number or email address is correctly formatted.
 
-**Add a postcode (validated)**
+{% capture postcode %}
+1. Click `Add field`.
+2. Choose `Text box`.
+3. Type Postcode in the `Field` Label and type *postcode* in the `Variable Name`.
+4. In the `Validation` field, select *Postal code (Australia)*. This will ensure only four numerals can be entered into the field.
+5. In the `Field` note field, type *“Providing your postcode is optional. We collect approximate residency data to assist with interpreting trial results.”*
+6. Click `Save`.
+{% endcapture %}
+{% include card.html header="Add a postcode (validated)" text=postcode %}
 
-1. Click Add field.
-2. Choose Text box.
-3. Type Postcode in the Field Label and type postcode in the Variable Name.
-4. In the Validation field, select Postal code (Australia). This will ensure only four numerals can be entered into the field.
-5. In the Field note field, type “Providing your postcode is optional. We collect approximate residency data to assist with interpreting trial results.”
-6. Click Save.
-
-**Add an email (validated)**
-
-1. Click Add field.
-2. Choose Text box.
-3. Type Email in the Field Label and type email in the Variable Name.
-4. In the Validation field, select Email. This will ensure only correctly formatted emails can be entered into the field.
-5. In the Identifier field, select “Yes”.
-6. In the Field note field, type “Providing your postcode is optional. We collect approximate residency data to assist with interpreting trial results.”
-7. Click Save.
-8. Click Return to list of instruments.
+{% capture email %}
+1. Click `Add field`.
+2. Choose `Text box`.
+3. Type *Email* in the `Field` Label and type *email* in the `Variable Name`.
+4. In the `Validation` field, select *Email*. This will ensure only correctly formatted emails can be entered into the field.
+5. In the `Identifier` field, select *“Yes”*.
+6. In the `Field` note field, type *“Providing your postcode is optional. We collect approximate residency data to assist with interpreting trial results.”*
+7. Click `Save`.
+8. Click `Return to list of instruments`.
+{% endcapture %}
+{% include card.html header="Add an email (validated)" text=email %}
 
 ## About identifiers
 
@@ -85,5 +90,6 @@ REDCap allows for personally identifiable information to be automatically remove
 
 REDCap uses the US HIPAA model to list what are likely to be personally identifying data. You can look it up using the REDCap help. It is a starting point and it likely to be similar to the Australian model.
 
-However if you are collecting personal information from participants you should refer to the Privacy Principles found in the *Privacy Act 1988* (Cth) and Griffith’s Privacy Plan (see [https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research](https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research)).
+{% include alert.html text="If you are collecting personal information from participants you should refer to the Privacy Principles found in the *Privacy Act 1988* (Cth) and Griffith’s Privacy Plan (see [https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research](https://www.griffith.edu.au/about-griffith/corporate-governance/plans-publications/griffith-university-privacy-plan#research))." color="warning" %}
 
+{% include alert.html text="**All done here?** Move to the [next page]." color="success" %}
