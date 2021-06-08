@@ -2,10 +2,10 @@
 title: Getting Started
 nav: Start
 topics: GitHub; REDCap; LimeSurvey; Griffith; Research
-description: Let's look at hos to access REDCap for the first time. 
+description: Let's look at how to access REDCap for the first time. 
 ---
 
-The Griffith REDCap instance is hosted at [www151.griffith.edu.au/redcap/](https://www151.griffith.edu.au/redcap/). The simplest way there is via [griffith.edu.au/survey-centre](https://www.griffith.edu.au/survey-centre).
+The Griffith REDCap instance is hosted at [www151.griffith.edu.au/redcap/](https://www151.griffith.edu.au/redcap/). You can also get information about REDCap and Lime Survey (Griffith's other supported survey solution) via the Library's [Working with Data](https://www.griffith.edu.au/library/research-publishing/working-with-data/create-and-capture) page.
 
 REDCap logins are connected to the Griffith phonebook using LDAP. Your Griffith s-number and password allow you to enter. There is no need to maintain separate login details.
 

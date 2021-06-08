@@ -29,4 +29,4 @@ The easiest way to see how they work is to export one and look at it in Excel.
 
 ___
 
-{% include alert.html text="**All done here?** Move to the [next page](6-settings.html)." color="success" %}
+{% include alert.html text="**All done here?** Move to the [next page](6-distribution.html)." color="success" %}
