@@ -8,9 +8,9 @@ layout: default
 {% include figure.html img="redcap-logo-full.png" alt="REDCap full logo" caption="REDCap logo" width="75%" %}
 
 {% capture workshopinfo %}
-Hi! This site is designed as a companion to Griffith Library's Research Data Capture workshops, presented in collaboration with Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development).
+Hi! This site is designed as a companion to [Griffith Library's](https://www.griffith.edu.au/library) Research Data Capture workshops, presented in collaboration with Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development).
 
-It can also be treated as a standalone, self-paced tutorial, but we can't offer you direct support nor guarantee its currency or accuracy when you use it in this way.
+It can also be treated as a standalone, self-paced tutorial.
 {% endcapture %}
 
 {% include alert.html text=workshopinfo align="left" color="info" %}
