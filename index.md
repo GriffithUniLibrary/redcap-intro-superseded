@@ -13,7 +13,7 @@ Hi! This site is designed as a companion to Griffith Library's Research Data Cap
 It can also be treated as a standalone, self-paced tutorial, but we can't offer you direct support nor guarantee its currency or accuracy when you use it in this way.
 {% endcapture %}
 
-{% include alert.html text=workshopinfo align="center" color="info" %}
+{% include alert.html text=workshopinfo align="left" color="info" %}
 
 {% include toc.html %}
 
