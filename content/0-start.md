@@ -1,6 +1,5 @@
 ---
 title: Getting Started
-nav: Start
 topics: GitHub; REDCap; LimeSurvey; Griffith; Research
 description: Let's look at how to access REDCap for the first time. 
 ---
