@@ -16,7 +16,7 @@ REDCap logins are connected to the Griffith phonebook using LDAP. Your Griffith 
 
 {% capture text %}
 
-1. Open a browser and using the search box to find the `Research Survey Centre` web page.
+1. Open a browser and paste `https://www151.griffith.edu.au/redcap/` into the address bar.
 2. Log in to REDCap using your s-number and password.
 3. The first screen you will be shown is the `My Projects` screen. 
 
