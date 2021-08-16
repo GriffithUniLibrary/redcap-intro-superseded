@@ -9,11 +9,15 @@ layout: default
 
 {% capture workshopinfo %}
 Hi! This site is designed as a companion to [Griffith Library's](https://www.griffith.edu.au/library) Research Data Capture workshops, presented in collaboration with Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development).
+{% endcapture %}
 
+{% include alert.html text=workshopinfo align="left" color="warning" %}
+
+{% capture standalone %}
 It can also be treated as a standalone, self-paced tutorial.
 {% endcapture %}
 
-{% include alert.html text=workshopinfo align="left" color="info" %}
+{% include alert.html text=standalone align="left" color="info" %}
 
 {% include toc.html %}
 

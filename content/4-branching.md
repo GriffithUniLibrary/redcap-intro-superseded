@@ -32,12 +32,12 @@ You can end the survey automatically based on a participant’s answers to a que
 Stop Actions cannot be tested until the survey is published. 
 
 {% capture stopaction %}
-1.	Click Return to list of instruments.
-2.	Choose the Baseline Health Data instrument.
+1.	Click `Return to list of instruments`.
+2.	Choose the _Baseline Health Data_ instrument.
 3.	Scroll to the question that reads: Do you suffer from any of the following conditions?
-Click the red   button in the question menu.
-4.	Select Asthma and click Save. 
-5.	Note that the Asthma option now has [End Survey] alongside it in red. 
+Click the red button in the question menu.
+4.	Select _Asthma_ and click `Save`. 
+5.	Note that the _Asthma_ option now has `[End Survey]` alongside it in red. 
 
 {% include alert.html text="Note that Stop Actions don’t support ending the survey based on multiple conditions (e.g. `[Age] > 45 AND [Diabetes] = YES)` but you may be able to achieve a similar result using a combination of Branching and Stop Actions." color="info" %}
 

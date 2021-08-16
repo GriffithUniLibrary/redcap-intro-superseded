@@ -91,4 +91,4 @@ REDCap uses the US HIPAA model to list what are likely to be personally identify
 
 ___
 
-{% include alert.html text="**All done here?** Move to the [next page](3-instruments-2.html)." color="success" %}
+{% include alert.html text="**All done here?** Move to the [next page](3-validation.html)." color="success" %}
