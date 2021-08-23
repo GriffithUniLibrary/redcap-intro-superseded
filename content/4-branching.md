@@ -59,6 +59,16 @@ Here we are going to create a ‘None of the Above’ checkbox option, that auto
 {% endcapture %}
 {% include card.html header="Add ‘None of the Above’ to the Existing Conditions’ question" text=actiontag %}
 
+Now we will add an action tag that causes the calculated field we created before to be hidden from the participant view.
+
+{% capture actiontaghide %}
+1.	Click the `edit` button ( ) next to the question labelled _Your Body Mass Index (BMI)_.
+2.	In the `Action Tags` field, type `@HIDDEN-SURVEY`. This will prevent the question being shown to the participant in the survey (although you will still be able to see it in the form view).
+
+{% include alert.html text="There are versions of this action tag that will hide the question from just the survey, just the mobile app, or from all instruments." color="info" %}
+
+{% endcapture %}
+{% include card.html header="Hide a question using action tags" text=actiontaghide %}
 ___
 
 {% include alert.html text="**All done here?** Move to the [next page](5-dictionary.html)." color="success" %}
