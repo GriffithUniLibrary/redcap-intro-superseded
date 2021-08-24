@@ -29,7 +29,9 @@ You can decide to show or hide specific questions based on the results of previo
 ### Stop Actions
 
 You can end the survey automatically based on a participant’s answers to a question.
-Stop Actions cannot be tested until the survey is published. 
+
+
+{% include alert.html text="Stop Actions cannot be tested until the survey is published." color="warning" %}
 
 {% capture stopaction %}
 1.	Click `Return to list of instruments`.
