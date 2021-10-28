@@ -39,7 +39,7 @@ Now We’ll build a form and then turn it into a survey.
 8. Click `Save`.
 9. Repeat the process to add the field Given Name (name_given)
 {% endcapture %}
-{% include card.html header="Rename your first instrument" text=buildform %}
+{% include card.html header="Add a basic text field" text=buildform %}
 
 {% capture multiplechoice %}
 1. Click `Add field`.
