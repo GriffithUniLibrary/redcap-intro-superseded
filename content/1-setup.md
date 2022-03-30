@@ -33,7 +33,7 @@ See this <a href="LowChoyResBaz2021.pdf">presentation</a> by Associate Professor
 
 {% endcapture %}
 
-{% include card.html header="<i class='fa-solid fa-bomb'></i> Before we get started" text=beforewebegin %}
+{% include card.html header="<i class='fa-solid fa-triangle-exclamation'></i> Before we get started" text=beforewebegin %}
 
 ## Where to find REDCap
 
