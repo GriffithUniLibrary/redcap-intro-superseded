@@ -6,13 +6,13 @@ description: Let's look at how to access REDCap for the first time.
 
 {% capture beforewebegin %}
 
-Building a research survey should come after a significant amount of careful planning and design.
+A significant amount of careful planning and design needs to happen before you start building your survey.
 
-See this <a href="content/LowChoyResBaz2021.pdf">presentation</a> by Associate Professor Sama Low-Choy on the Survey Lifecycle. 
+See this <a href="content/LowChoyResBaz2021.pdf">presentation</a> by Associate Professor Sama Low-Choy on the Survey Lifecycle.
 
 {% endcapture %}
 
-{% include card.html header="Before we get started" text=beforewebegin %}
+{% include card.html header="<i class='fa-solid fa-bomb'></i> Before we get started" text=beforewebegin %}
 
 The Griffith REDCap instance is hosted at [www151.griffith.edu.au/redcap/](https://www151.griffith.edu.au/redcap/). You can also get information about REDCap and Lime Survey (Griffith's other supported survey solution) via the Library's [Working with Data](https://www.griffith.edu.au/library/research-publishing/working-with-data/create-and-capture) page.
 
