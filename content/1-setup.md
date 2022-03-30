@@ -1,5 +1,6 @@
 ---
 title: Getting Started and setting up
+title-icon: fas fa-pied-piper-hat
 nav: Setup
 topics: Logging in; My Projects; Creating a project
 description: Let's look at how to access REDCap for the first time. 
@@ -33,6 +34,8 @@ See this <a href="LowChoyResBaz2021.pdf">presentation</a> by Associate Professor
 {% endcapture %}
 
 {% include card.html header="<i class='fa-solid fa-bomb'></i> Before we get started" text=beforewebegin %}
+
+## Where to find REDCap
 
 The Griffith REDCap instance is hosted at [www151.griffith.edu.au/redcap/](https://www151.griffith.edu.au/redcap/). You can also get information about REDCap and Lime Survey (Griffith's other supported survey solution) via the Library's [Working with Data](https://www.griffith.edu.au/library/research-publishing/working-with-data/create-and-capture) page.
 
