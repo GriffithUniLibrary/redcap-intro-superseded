@@ -28,7 +28,7 @@ Your **design** phase should have included:
 - Question validation
 - Sampling design
 
-See this <a href="content/LowChoyResBaz2021.pdf">presentation</a> by Associate Professor Sama Low-Choy on the Survey Lifecycle.
+See this <a href="LowChoyResBaz2021.pdf">presentation</a> by Associate Professor Sama Low-Choy on the Survey Lifecycle.
 
 {% endcapture %}
 
