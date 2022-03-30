@@ -5,6 +5,35 @@ topics: Logging in; My Projects; Creating a project
 description: Let's look at how to access REDCap for the first time. 
 ---
 
+{% capture beforewebegin %}
+
+{% capture planningalert %}
+
+A significant amount of careful planning and design needs to happen before you start building your survey. The stronger your preparation, the more credible your methodology will be. 
+
+{% endcapture %}
+{% include alert.html text=planningalert color="warning" %}
+
+Your **preparation** phase should have included:
+
+- Research problem development
+- Literature review
+- Concept mapping and identification of measures
+- Survey cohort identification
+
+Your **design** phase should have included: 
+
+- Clarifying the _answers_ you want (not the questions)
+- Question design
+- Question validation
+- Sampling design
+
+See this <a href="content/LowChoyResBaz2021.pdf">presentation</a> by Associate Professor Sama Low-Choy on the Survey Lifecycle.
+
+{% endcapture %}
+
+{% include card.html header="<i class='fa-solid fa-bomb'></i> Before we get started" text=beforewebegin %}
+
 The Griffith REDCap instance is hosted at [www151.griffith.edu.au/redcap/](https://www151.griffith.edu.au/redcap/). You can also get information about REDCap and Lime Survey (Griffith's other supported survey solution) via the Library's [Working with Data](https://www.griffith.edu.au/library/research-publishing/working-with-data/create-and-capture) page.
 
 REDCap logins are connected to the Griffith phonebook using LDAP. Your Griffith s-number and password allow you to enter. There is no need to maintain separate login details.
