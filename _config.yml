@@ -21,7 +21,7 @@ github_username: GriffithUniLibrary
 # year or date published
 pub_year: 2021
 # location of code, the full url to your github repository
-source-code: https://github.com/GriffithUniLibrary/redcap
+source-code: https://github.com/GriffithUniLibrary/redcap-intro
 
 ##########
 # URL VARIABLES [optional!]
